@@ -1,0 +1,114 @@
+
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: column;
+  }
+
+
+/* box one */
+.box-one{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    height: 200px;
+}
+
+.header{
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    gap: 550px;
+    
+}
+
+#logo{
+    
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.header-info{
+    
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    
+}
+
+
+/* box two */
+.box-two{
+    border: 2px solid blue;
+    display: flex;
+    height: 200px;
+    flex-direction: column; 
+}
+
+
+
+#heading{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex: 3;
+}
+
+
+
+/* box three */
+.box-three{
+    height: 200px;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* box four */
+.box-four{
+    height: 160px;
+    border: 2px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-box{
+    height: 80px;
+    border: 2px solid brown;
+    width: 700px;
+}
+
+/* box five */
+.box-five{
+    height: 40px;
+    border: 2px solid black;
+}
+
+
+
+
+
+
