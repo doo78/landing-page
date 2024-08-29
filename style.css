@@ -1,8 +1,7 @@
 
 body{
-    padding-left: 50px;
-    padding-right: 50px;
-    
+
+    font-family: sans-serif;
 }
 
 .flex-container {
@@ -15,45 +14,89 @@ body{
 .box-one{
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
-    height: 200px;
+    height: 400px;
+    background-color: #1F2937;
+    color: white;
 }
 
 .header{
     display: flex;
-    border: 2px solid red;
+    
     align-items: center;
     justify-content: center;
     height: 50px;
-    gap: 550px;
+    gap: 250px;
     
 }
 
 #logo{
-    
+    margin-right: 220px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .links{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-info{
     
-    height: 100px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
     
+    
+    margin-top: 100px;
 }
 
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+   
+}
+
+#description-header{
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#description-info{
+    color: #E5E7EB;
+}
+
+#description-sign-up-button{
+    color: #E5E7EB; 
+    background-color: #3882F6;
+    width: 110px;
+    border-radius: 12px;
+    height: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: auto;
+    margin-top: 10px;
+}
+
+#header-image{
+    background-color: grey;
+    height: 200px;
+    
+    width: 500px;
+    
+
+}
 
 /* box two */
 .box-two{
-    border: 2px solid blue;
+    
     display: flex;
-    height: 200px;
+    height: 400px;
     flex-direction: column; 
 }
 
@@ -63,6 +106,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 36px;
+    color: #1F2928;
+    font-weight: 900;
 }
 
 .images{
@@ -73,38 +119,128 @@ body{
     flex: 3;
 }
 
+.image{
+    border: 4px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    
+}
+
+.image-and-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-desc{
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+}
 
 
 /* box three */
 .box-three{
-    height: 200px;
-    border: 2px solid green;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #E5E7EB;
+    
 }
 
+#quote{
+    font-size: 24px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#source{
+    margin-left: 300px;
+    font-weight: bold;
+}
 
 /* box four */
 .box-four{
-    height: 160px;
-    border: 2px solid brown;
+    height: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .sign-up-box{
-    height: 80px;
+    height: 150px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 12px;
+    gap: 40px;
+}
+
+#call{
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+
+#sign-up-title{
+    flex: 2 1 0%;
+
+    display: flex;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    
+}
+
+#sign-up-desc{
+    font-size: 16px;
+    
+}
+
+/*
+#sign-up-button{
+    height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
     border: 2px solid brown;
-    width: 700px;
+    margin-right: 50px;
+}
+    */
+
+
+#sign-up-button{
+    color: #E5E7EB; 
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 12px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: auto;
+    margin-top: 10px;
+    border: 2px solid white;
+    margin-right: 125px;
+    
 }
 
 /* box five */
 .box-five{
-    height: 40px;
-    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
 }
 
 
